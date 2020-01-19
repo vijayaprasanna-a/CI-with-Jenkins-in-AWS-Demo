@@ -52,4 +52,16 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+    <repository>
+        <id>Releases</id>
+        <name>Devops Releases</name>
+        <url>http://35.200.129.8:8081/nexus/content/repositories/Devops.Release/</url>
+    </repository>
+    <snapshotrepository>
+        <id>Snapshots</id>
+        <name>Devops snapshots</name>
+        <url>http://35.200.129.8:8081/nexus/content/repositories/Devops.Snapshot/</url>
+    </snapshotrepository>
+</distributionManagement>
 </project>
