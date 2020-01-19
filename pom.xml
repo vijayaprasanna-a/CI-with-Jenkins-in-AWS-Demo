@@ -54,7 +54,7 @@
     </build>
     <distributionManagement>
     <repository>
-        <id>Releases</id>
+        <id>deployment</id>
         <name>Devops Releases</name>
         <url>http://35.200.129.8:8081/nexus/content/repositories/Devops.Release/</url>
     </repository>
