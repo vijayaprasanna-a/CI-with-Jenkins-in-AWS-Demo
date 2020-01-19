@@ -53,16 +53,21 @@
         </plugins>
     </build>
     <distributionManagement>
+        <!--
     <repository>
         <id>deployment</id>
         <name>Devops Releases</name>
         <url>http://35.200.129.8:8081/nexus/content/repositories/Devops.Release/</url>
     </repository>
-        <!--
     <snapshotrepository>
         <id>Snapshots</id>
         <name>Devops snapshots</name>
         <url>http://35.200.129.8:8081/nexus/content/repositories/Devops.Snapshot/</url>
     </snapshotrepository> -->
+    <repository>
+        <id>Devops.Release</id>
+        <name>Devops.Release</name>
+        <url>http://35.200.129.8:8081/nexus/content/repositories/Devops.Release/</url>
+    </repository>
 </distributionManagement>
 </project>
