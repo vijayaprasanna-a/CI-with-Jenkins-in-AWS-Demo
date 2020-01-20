@@ -69,5 +69,10 @@
         <name>Devops.Release</name>
         <url>http://35.200.242.202:8081/nexus/content/repositories/Devops.Release/</url>
     </repository>
+    <snapshotRepository>
+        <id>Devops.Snapshot</id>
+        <name>Devops.Snapshot</name>
+        <url>http://35.200.242.202:8081/nexus/content/repositories/Devops.Snapshot</url>
+    </snapshotRepository>
 </distributionManagement>
 </project>
