@@ -67,7 +67,7 @@
     <repository>
         <id>Devops.Release</id>
         <name>Devops.Release</name>
-        <url>http://35.244.48.47:8081/nexus/content/repositories/Devops.Release/</url>
+        <url>http://35.200.242.202:8081/nexus/content/repositories/Devops.Release/</url>
     </repository>
 </distributionManagement>
 </project>
