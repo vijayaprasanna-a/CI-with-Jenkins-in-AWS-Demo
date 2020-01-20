@@ -63,5 +63,6 @@
         <name>Devops.Snapshot</name>
         <url>http://35.200.242.202:8081/nexus/content/repositories/Devops.Snapshot</url>
     </snapshotRepository>
+    <!-- Commented line added to test CI CD pipeline from Github commit -->
 </distributionManagement>
 </project>
