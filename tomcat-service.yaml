@@ -1,11 +1,11 @@
 apiVersion: v1 
 kind: Service
 metadata:
-  name: tomcat-Deployment
+  name: tomcat-deployment
 spec:
   type: LoadBalancer
   ports:
   - port: 8599
     targetPort: 8080
   selector:
-    run: tomcat-Deployment
+    run: tomcat-deployment
